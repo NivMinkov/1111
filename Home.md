@@ -9,6 +9,9 @@ This wiki is the main source of documentation for users and developers of Pcap.N
 | [[User Guide]]                             | [[Developer Guide]]     |
 | Tutorial and user guide for using Pcap.Net | How to change Pcap.Net  |
 
+## Need help?
+Use the [Pcap.Net Q&A Group](https://groups.google.com/forum/#!forum/pcapdotnet) to ask questions.
+
 [dotnet]: http://www.microsoft.com/net
 [winpcap]: http://www.winpcap.org/
 [cpluspluscli]: http://en.wikipedia.org/wiki/C%2B%2B/CLI
