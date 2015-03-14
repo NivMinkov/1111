@@ -85,4 +85,4 @@ The above example extracts the timestamp and the length of every packet and prin
 
 Please note that there may be a drawback using ReceivePackets() mainly related to the fact that the handler is called by the packet capture driver; therefore the user application does not have direct control over it. Another approach (and to have more readable programs) is to use the ReceivePacket() function, which is presented in the next example (Capturing the packets without the callback).
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Obtaining advanced information about installed devices]] [[Next >>>|Pcap.Net Tutorial - Capturing the packets without the callback]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Obtaining advanced information about installed devices]] [[Next >>>|Pcap.Net Tutorial: Capturing the packets without the callback]]
