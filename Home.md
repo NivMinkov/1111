@@ -6,6 +6,7 @@ This wiki is the main source of documentation for users and developers of Pcap.N
 
 | Using Pcap.Net                             | Developing Pcap.Net     |
 |--------------------------------------------|-------------------------|
+| [[User Guide]]                             | [[Developer Guide]]     |
 | Tutorial and user guide for using Pcap.Net | How to change Pcap.Net  |
 
 [dotnet]: http://www.microsoft.com/net
