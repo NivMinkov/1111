@@ -38,7 +38,7 @@ The following items are needed before you can develop Pcap.Net:
   * CA2004 (Reliability): Remove calls to GC.KeepAlive
 * Special cases to suppress Code Analysis warnings (case by case):
   * CA1025 (Design): Replace repetitive arguments with params array. *Can be suppressed when it makes sense to have more than 3 parameters of the same type but not unlimited number of parameters*
-  * CA2227 (Usage): Collection properties should be read only - *Can be suppressed only if the Collection is a ReadOnlyCollection<T>*
+  * CA2227 (Usage): Collection properties should be read only - *Can be suppressed only if the Collection is a ReadOnlyCollection&lt;T>*
 
 ## Policies
 * Every check-in *must* be commented.
@@ -69,43 +69,43 @@ The following items are needed before you can develop Pcap.Net:
   * Documentation - change the version in the PcapDotNet.shfbproj file (requires manual checkout).
   * Checkin the 22 files (note the new Change Set number).
 * Folders:
-  * PcapDotNet.Source.<Version>.<Change Set>
-  * PcapDotNet.Binaries.<Version>.<Change Set> containing two folders:
-    * PcapDotNet.Binaries.<Version>.<Change Set>.x64
-    * PcapDotNet.Binaries.<Version>.<Change Set>.x86
-  * PcapDotNet.Documentation.<Version>.<Change Set>
-  * PcapDotNet.DevelopersPack.<Version>.<Change Set> containing two folders:
-    * PcapDotNet.DevelopersPack.<Version>.<Change Set>.x64 containing doc folder.
-    * PcapDotNet.DevelopersPack.<Version>.<Change Set>.x86 containing doc folder.
+  * PcapDotNet.Source.&lt;Version>.&lt;Change Set>
+  * PcapDotNet.Binaries.&lt;Version>.&lt;Change Set> containing two folders:
+    * PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>.x64
+    * PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>.x86
+  * PcapDotNet.Documentation.&lt;Version>.&lt;Change Set>
+  * PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set> containing two folders:
+    * PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x64 containing doc folder.
+    * PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x86 containing doc folder.
 * Build:
   * Close any solution opened.
   * Do the following twice, once for x86 and once for x64:
     * Delete the bin folder of PcapDotNet.
     * Build PcapDotNet in release according to the Compiling the code section above.
-    * Copy the 12 dll, xml and pdb files (not the Test, TestUtils, CodeAnalysisLog.xml or lastcodeanalysissucceeded files) from the ...\PcapDotNet\bin\<Architecture>\Release\ folder to the previously created PcapDotNet.Binaries.<Version>.<Change Set>.<Architecture> folder.
+    * Copy the 12 dll, xml and pdb files (not the Test, TestUtils, CodeAnalysisLog.xml or lastcodeanalysissucceeded files) from the ...\PcapDotNet\bin\&lt;Architecture>\Release\ folder to the previously created PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>.&lt;Architecture> folder.
     * Note: only the Core files should be different between the two architectures.
-* Download the Change Set source code and put its contents in the previously created PcapDotNet.Source.<Version>.<Change Set> folder.
-* Create documentation and copy it to the previously created PcapDotNet.Documentation.<Version>.<Change Set> folder.
+* Download the Change Set source code and put its contents in the previously created PcapDotNet.Source.&lt;Version>.&lt;Change Set> folder.
+* Create documentation and copy it to the previously created PcapDotNet.Documentation.&lt;Version>.&lt;Change Set> folder.
 * Create Developer's pack:
   * Update the user guide with new versions of examples.
-  * Copy the files from PcapDotNet.Source.<Version>.<Change Set> folder to the Developer's Pack folders (PcapDotNet.DevelopersPack.<Version>.<Change Set>.x64, PcapDotNet.DevelopersPack.<Version>.<Change Set>.x86).
-  * Copy the files from PcapDotNet.Binaries.<Version>.<Change Set>.x64 folder to PcapDotNet.DevelopersPack.<Version>.<Change Set>.x64\PcapDotNet.DevelopersPack\3rdParty\PcapDotNet folder.
-  * Copy the files from PcapDotNet.Binaries.<Version>.<Change Set>.x86 folder to PcapDotNet.DevelopersPack.<Version>.<Change Set>.x86\PcapDotNet.DevelopersPack\3rdParty\PcapDotNet folder.
-  * Copy the files from PcapDotNet.Documentation.<Version>.<Change Set> to both Developer's Pack doc folders (PcapDotNet.DevelopersPack.<Version>.<Change Set>.x64\doc, PcapDotNet.DevelopersPack.<Version>.<Change Set>.x86\doc).
-  * Delete all of the .vspscc and .vssscc files in the different folders under PcapDotNet.DevelopersPack.<Version>.<Change Set> folder.
-* Copy the license.txt file to PcapDotNet.Documentation.<Version>.<Change Set>, PcapDotNet.Binaries.<Version>.<Change Set> and PcapDotNet.DevelopersPack.<Version>.<Change Set> folders.
-* Zip each folder (PcapDotNet.Source.<Version>.<Change Set>, PcapDotNet.Binaries.<Version>.<Change Set>, PcapDotNet.Documentation.<Version>.<Change Set>, PcapDotNet.DevelopersPack.<Version>.<Change Set>) to create 4 matching zip files.
+  * Copy the files from PcapDotNet.Source.&lt;Version>.&lt;Change Set> folder to the Developer's Pack folders (PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x64, PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x86).
+  * Copy the files from PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>.x64 folder to PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x64\PcapDotNet.DevelopersPack\3rdParty\PcapDotNet folder.
+  * Copy the files from PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>.x86 folder to PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x86\PcapDotNet.DevelopersPack\3rdParty\PcapDotNet folder.
+  * Copy the files from PcapDotNet.Documentation.&lt;Version>.&lt;Change Set> to both Developer's Pack doc folders (PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x64\doc, PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>.x86\doc).
+  * Delete all of the .vspscc and .vssscc files in the different folders under PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set> folder.
+* Copy the license.txt file to PcapDotNet.Documentation.&lt;Version>.&lt;Change Set>, PcapDotNet.Binaries.&lt;Version>.&lt;Change Set> and PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set> folders.
+* Zip each folder (PcapDotNet.Source.&lt;Version>.&lt;Change Set>, PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>, PcapDotNet.Documentation.&lt;Version>.&lt;Change Set>, PcapDotNet.DevelopersPack.&lt;Version>.&lt;Change Set>) to create 4 matching zip files.
 * Create a new release:
-  * Named it Pcap.Net <Version> (<Change Set>).
+  * Named it Pcap.Net &lt;Version> (&lt;Change Set>).
   * Copy the description from a previous release and change the necessary sections (use the comments on the different Change Sets to describe the changes).
   * The files should be ordered Developer's Pack, Binaries, Documentation, Source.
   * Developer's Pack is the recommended download.
 * Update NuGet packages. For each architecture (x64 and x86) do the following:
-  * Open Pcap.Net.<Architecture>.nupkg.
+  * Open Pcap.Net.&lt;Architecture>.nupkg.
   * Edit Metadata: Update Version and Release notes.
   * Under lib, remove the net40 directory.
   * Add net40 directory.
-  * Add the binaries from the matching PcapDotNet.Binaries.<Version>.<Change Set>.<Architecture> directory.
+  * Add the binaries from the matching PcapDotNet.Binaries.&lt;Version>.&lt;Change Set>.&lt;Architecture> directory.
   * Save.
   * Go to https://www.nuget.org.
   * Upload the Package.
