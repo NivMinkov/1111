@@ -39,6 +39,8 @@ The following items are needed before you can develop Pcap.Net:
 * Special cases to suppress Code Analysis warnings (case by case):
   * CA1025 (Design): Replace repetitive arguments with params array. *Can be suppressed when it makes sense to have more than 3 parameters of the same type but not unlimited number of parameters*
   * CA2227 (Usage): Collection properties should be read only - *Can be suppressed only if the Collection is a ReadOnlyCollection&lt;T>*
+* For C++ CLI projects, the following rules exceptions are also allowed:
+  * CA2151 (Security): Fields with critical types should be security critical.
 
 ## Policies
 * Every check-in *must* be commented.
