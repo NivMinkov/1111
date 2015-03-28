@@ -37,15 +37,15 @@ The following items are needed before you can develop Pcap.Net:
   * CA2000 (Reliability): Dispose objects before losing scope (perhaps this rule should be enabled after it is fixed in Visual Studio 2010).
   * CA2004 (Reliability): Remove calls to GC.KeepAlive
 * Special cases to suppress Code Analysis warnings (case by case):
-  * CA1025 (Design): Replace repetitive arguments with params array. *Can be suppressed when it makes sense to have more than 3 parameters of the same type but not unlimited number of parameters*
-  * CA2227 (Usage): Collection properties should be read only - *Can be suppressed only if the Collection is a ReadOnlyCollection&lt;T>*
+  * CA1025 (Design): Replace repetitive arguments with params array. **Can be suppressed when it makes sense to have more than 3 parameters of the same type but not unlimited number of parameters.**
+  * CA2227 (Usage): Collection properties should be read only - **Can be suppressed only if the Collection is a ReadOnlyCollection&lt;T>**.
 * For C++ CLI projects, the following rules exceptions are also allowed:
   * CA2151 (Security): Fields with critical types should be security critical.
 
 ## Policies
-* Every check-in *must* be commented.
-* Solution *must* compile without errors or warnings.
-* All unit tests *must* pass.
+* Every check-in **must** be commented.
+* Solution **must** compile without errors or warnings.
+* All unit tests **must** pass.
 * Code coverage should be high (90%+).
 * Everything public should be documented (you should get a warning for anything that should be documented but isn't).
 * Work items of significant changes should be created. Significant changes are ones that users can notice (and so should be able to vote for).
@@ -63,7 +63,7 @@ The following items are needed before you can develop Pcap.Net:
   * Make sure the code coverage is high.
   * Make sure the code metrics look good.
   * Build the documentation and make sure it looks good.
-  * Make sure developer's pack solution compiles with *updated 3rdParty binaries*.
+  * Make sure developer's pack solution compiles with **updated 3rdParty binaries**.
 * Versioning:
   * Decide on the new version number.
   * PcapDotNet - change the version in all the AssemblyInfo.cs files and in the AssemblyInfo.cpp file.
