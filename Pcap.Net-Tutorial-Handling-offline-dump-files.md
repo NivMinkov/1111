@@ -147,4 +147,4 @@ namespace ReadingPacketsFromADumpFile
 }
 ```
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Interpreting the packets]] [[Next >>>|Pcap.Net Tutorial: Sending Packets]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Interpreting the packets]] [[Next >>>|Pcap.Net Tutorial Sending Packets]]
