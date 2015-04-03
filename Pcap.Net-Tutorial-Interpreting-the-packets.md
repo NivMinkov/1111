@@ -123,4 +123,4 @@ The extracted values are printed on the screen, and the result is something like
 208.67.222.222:53 -> 10.0.0.8:47869
 ```
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Filtering the traffic]] [[Next >>>|Pcap.Net Tutorial: Handling offline dump files]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Filtering the traffic]] [[Next >>>|Pcap.Net Tutorial Handling offline dump files]]
