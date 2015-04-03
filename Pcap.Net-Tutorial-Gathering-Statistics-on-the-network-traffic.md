@@ -116,4 +116,4 @@ In the example, the adapter is opened with a timeout of 1000 ms. This means that
 
 Note finally that this example is by far more efficient than a program that captures the packets in the traditional way and calculates statistics at user-level. Statistical mode requires the minumum amount of data copies and context switches and therefore the CPU is optimized. Moreover, a very small amount of memory is required.
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Sending Packets]] [[Next >>>|Pcap.Net Tutorial: Using LINQ]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Sending Packets]] [[Next >>>|Pcap.Net Tutorial Using LINQ]]
