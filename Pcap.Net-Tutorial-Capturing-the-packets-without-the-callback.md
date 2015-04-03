@@ -1,6 +1,6 @@
 ## Capturing the packets without the callback
 
-The example program in this lesson behaves exactly like the previous program ([[Opening an adapter and capturing the packets|Pcap.Net Tutorial - Opening an adapter and capturing the packets]]), but it uses ReceivePacket() instead of ReceivePackets().
+The example program in this lesson behaves exactly like the previous program ([[Opening an adapter and capturing the packets|Pcap.Net Tutorial Opening an adapter and capturing the packets]]), but it uses ReceivePacket() instead of ReceivePackets().
 
 The callback-based capture mechanism of ReceivePackets() is elegant and it could be a good choice in some situations. However, handling a callback is sometimes not practical -- it often makes the program more complex especially in situations with multithreaded applications.
 
@@ -92,4 +92,4 @@ namespace CapturingThePacketsWithoutTheCallback
 
 Notice also that ReceivePacket() returns different values for success, timeout elapsed, breakloop and EOF conditions.
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial - Opening an adapter and capturing the packets]] [[Next >>>|Pcap.Net Tutorial - Filtering the traffic]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Opening an adapter and capturing the packets]] [[Next >>>|Pcap.Net Tutorial Filtering the traffic]]
