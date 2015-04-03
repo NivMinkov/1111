@@ -56,4 +56,4 @@ Assuming we have compiled the program, let's try to run it. On a particular WinX
 As you can see, the name of the network adapters (that will be passed to libpcap when opening the devices) under Windows are quite unreadable, so the parenthetical descriptions can be very helpful.
 
 [[&lt;&lt;&lt; Previous|Pcap.Net Tutorial]]
-[[Next >>>|Pcap.Net Tutorial: Obtaining advanced information about installed devices]]
+[[Next >>>|Pcap.Net Tutorial Obtaining advanced information about installed devices]]
