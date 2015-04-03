@@ -1,6 +1,6 @@
 ## Obtaining advanced information about installed devices
 
-Lesson 1 ([[Obtaining the device list|Pcap.Net Tutorial: Obtaining the device list]]) demonstrated how to get basic information (i.e. device name and description) about available adapters. Actually, Pcap.Net provides also other advanced information. In particular, every LivePacketDevice instance returned by LivePacketDevice.AllLocalMachine contains also a list of DeviceAddress instances, with:
+Lesson 1 ([[Obtaining the device list|Pcap.Net Tutorial Obtaining the device list]]) demonstrated how to get basic information (i.e. device name and description) about available adapters. Actually, Pcap.Net provides also other advanced information. In particular, every LivePacketDevice instance returned by LivePacketDevice.AllLocalMachine contains also a list of DeviceAddress instances, with:
 * The address for that interface.
 * A netmask.
 * A broadcast address.
@@ -64,4 +64,4 @@ namespace ObtainingAdvancedInformationAboutInstalledDevices
 }
 ```
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Obtaining the device list]] [[Next >>>|Pcap.Net Tutorial: Opening an adapter and capturing the packets]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Obtaining the device list]] [[Next >>>|Pcap.Net Tutorial Opening an adapter and capturing the packets]]
