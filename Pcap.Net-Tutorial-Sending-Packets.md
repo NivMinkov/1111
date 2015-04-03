@@ -986,4 +986,4 @@ namespace SendingPacketsUsingSendBuffer
 }
 ```
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Handling offline dump files]] [[Next >>>|Pcap.Net Tutorial: Gathering Statistics on the network traffic]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Handling offline dump files]] [[Next >>>|Pcap.Net Tutorial Gathering Statistics on the network traffic]]
