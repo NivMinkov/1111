@@ -7,4 +7,4 @@ The samples are written in plain C#, so a basic knowledge of C# programming is r
 
 The tutorial is based on [WinPcap's tutorial](https://www.winpcap.org/docs/docs_412/html/group__wpcap__tut.html).
 
-[[Next >>>|Pcap.Net Tutorial - Obtaining the device list]]
+[[Next >>>|Pcap.Net Tutorial Obtaining the device list]]
