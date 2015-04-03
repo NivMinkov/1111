@@ -25,6 +25,6 @@ The code above can be replaced in this simple case with a simple SetFilter() cal
 communicator.SetFilter("ip and tcp");
 ```
 
-If you want to see some code that uses the filtering functions shown in this lesson, look at the example presented in the next Lesson, [[Interpreting the packets|Pcap.Net Tutorial: Interpreting the packets]].
+If you want to see some code that uses the filtering functions shown in this lesson, look at the example presented in the next Lesson, [[Interpreting the packets|Pcap.Net Tutorial Interpreting the packets]].
 
-[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial: Capturing the packets without the callback]] [[Next >>>|Pcap.Net Tutorial: Interpreting the packets]]
+[[&lt;&lt;&lt; Previous|Pcap.Net Tutorial Capturing the packets without the callback]] [[Next >>>|Pcap.Net Tutorial Interpreting the packets]]
