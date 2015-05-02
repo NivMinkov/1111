@@ -19,8 +19,8 @@ The following items are needed before you can develop Pcap.Net:
   * Open the PcapDotNet.sln and build it.
 * Run all the unit tests of PcapDotNet.sln
 * **Problems**:
-  * If compilation fails - try to find the problem in the Discussions page or create a new discussion.
-  * If tests fail - try to find the problem in the Discussions page or create a new discussion.
+  * If compilation fails - try to find the problem in the Q&A group or create a new thread.
+  * If tests fail - try to find the problem in the Q&A group  page or create a new thread.
 
 ## Coding Conventions
 * Warning Level: 4.
