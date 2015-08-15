@@ -15,3 +15,6 @@
 
 **Question 6:** I'm getting a "Could not load file or assembly 'PcapDotNet.Core.dll' or one of its dependencies. The specified module could not be found." error. What should I do?  
 **Answer:** Make sure that you followed the Pcap.Net User Guide. Specifically, see the "Running Pcap.Net applications" section in [[Using Pcap.Net in your programs]].
+
+**Question 7:** How can I parse an ICMP packet?  
+**Answer:** `packet.Ethernet.Ip.Icmp` will get you `IcmpDatagram`. You need to downcast it to the specific `IcmpDatagram` you want (like `IcmpEchoReplyDatagram`) to get to the specific ICMP fields.
