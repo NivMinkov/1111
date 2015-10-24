@@ -125,6 +125,7 @@ The following items are needed before you can develop Pcap.Net:
 * Length of original datagram in ICMP Parameter Problem message is treated as the total IPv4 length (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10991>
 * IPv6 Local Mobility Anchor Address mobility option code is treated incorrectly (Reported February 14th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10961>
 * DNS LOC Precision missing units (Reported February 7th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10940>
+* ICMP Parameter Problem message contains "Length of original datagram" (Reported February 7th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10939>
 * HTTP chunked response includes data beyond the chunked response (Reported November 15th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10707>
 * NLPID not shown for protocols where the NLPID is not part of the PDU (Reported November 15th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10706>
 * IPv6 Experimental mobility header data is interpreted as options (Reported November 14th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10703>
