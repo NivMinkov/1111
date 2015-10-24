@@ -161,6 +161,7 @@ The following items are needed before you can develop Pcap.Net:
 * IPv6 Mobility Header Binding Revocation Acknowledge Global field is the wrong bit (Reported April 18th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10007>
 * IPv6 Mobility Header Link Layer Address is parsed incorrectly (Reported April 18th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10006>
 * IPv6 Authentication Header not parsed after Mobility Header (Reported April 18th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10005>
+* IPv6 Next Header is Unknown yet Wireshark tries parsing an IPv6 Extension Header (Reported April 15th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=9996>
 * IPv6 Next Header 0x3d recognized as SHIM6 (Reported April 15th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=9995>
 * The basic security IP option is implemented according to RFC 791 instead of RFC 1108 (Reported April 10th, 2012): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=7064>
 * DNS OPT flags are not parsed correctly (Reported April 8th, 2012): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=7045>
