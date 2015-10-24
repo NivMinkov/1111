@@ -153,6 +153,7 @@ The following items are needed before you can develop Pcap.Net:
 * IPv6 Mobility Option IPv6 Address/Prefix marks too many bytes for the address/prefix field (Reported October 16th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10576>
 * IPv6 QuickStart option Nonce is read incorrectly (Reported October 16th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10575>
 * IPv6 Calipso option Compartment Length is calculated incorrectly (Reported October 11th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10561>
+* Last Address field for IPv6 RPL routing header is interpreted incorrectly (Reported October 11th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10560>
 * IPv6 RPL option is read as less bytes than it is (Reported October 11th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10559>
 * IPv4 Protocols names: IDPR and IDRP (Reported May 16th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10110>
 * IPv6 Mobility Option Service Selection with option length = 1 is considered invalid (Reported April 25th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10045>
