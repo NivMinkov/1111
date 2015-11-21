@@ -123,6 +123,7 @@ The following items are needed before you can develop Pcap.Net:
 * IGMP Type appears twice and empty Data is shown (Reported October 10th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11582>
 * ICMP Redirect takes 4 bytes for IPv4 payload instead of 8 (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10992>
 * Length of original datagram in ICMP Parameter Problem message is treated as the total IPv4 length (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10991>
+* Wireshark ignores DNS Client Subnet option's data length when it's too long (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10988>
 * IPv6 Local Mobility Anchor Address mobility option code is treated incorrectly (Reported February 14th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10961>
 * DNS LOC Precision missing units (Reported February 7th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10940>
 * ICMP Parameter Problem message contains "Length of original datagram" (Reported February 7th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10939>
