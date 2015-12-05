@@ -120,6 +120,7 @@ The following items are needed before you can develop Pcap.Net:
 * WinPcap's driver bug that causes BSOD in Windows (Reported November 12th, 2009): <http://www.winpcap.org/pipermail/winpcap-bugs/2009-November/001094.html>, <http://www.winpcap.org/misc/changelog.htm>
 
 ### Wireshark Bugs
+* Wireshark doesn't parse an HTTP packet as chunked (Reported November 28th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11801>
 * IGMP Type appears twice and empty Data is shown (Reported October 10th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11582>
 * ICMP Redirect takes 4 bytes for IPv4 payload instead of 8 (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10992>
 * Length of original datagram in ICMP Parameter Problem message is treated as the total IPv4 length (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10991>
