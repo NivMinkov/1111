@@ -49,6 +49,7 @@ The following items are needed before you can develop Pcap.Net:
 * Code coverage should be high (90%+).
 * Everything public should be documented (you should get a warning for anything that should be documented but isn't).
 * Work items of significant changes should be created. Significant changes are ones that users can notice (and so should be able to vote for).
+* Report bugs found in other products and update [[this list|Bugs in other products that were found during the development of Pcap.Net and were fixed]].
 
 ## Building the documentation
 * Build the entire PcapDotNet solution in release.
