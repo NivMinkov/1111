@@ -134,6 +134,7 @@ The following items are needed before you can develop Pcap.Net:
 * IPv6 Experimental mobility header data is interpreted as options (Reported November 14th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10703>
 * DNS NAPTR RR Replacement Length is incorrect (Reported November 14th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10700>
 * IPv6 Experimental mobility option includes too many bytes for the Data field (Reported November 8th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10682>
+* UTF-8 replacement characters in FT_STRINGs are escaped for presentation (Reported November 8th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10681>
 * IPv6 Mobility Option Context Request reads an extra request (Reported November 7th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10676>
 * DNS WKS RR Protocol field is read as 4 bytes instead of 1 (Reported November 7th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10675>
 * DNS Name Length for Zone RR on root is 6 and Label Count is 1 (Reported November 7th, 2014): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10674>
