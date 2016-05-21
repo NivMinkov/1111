@@ -85,7 +85,7 @@ The following items are needed before you can develop Pcap.Net:
   * Do the following twice, once for x86 and once for x64:
     * Delete the bin folder of PcapDotNet.
     * Build PcapDotNet in release according to the Compiling the code section above.
-    * Copy the 12 dll, xml and pdb files (not the Test, TestUtils, CodeAnalysisLog.xml or lastcodeanalysissucceeded files) from the ...\PcapDotNet\bin\&lt;Architecture>\Release\ folder to the previously created PcapDotNet.Binaries.&lt;Version>.&lt;Architecture> folder.
+    * Copy the 12 dll, xml and pdb files (not the Test, TestUtils, CodeAnalysisLog.xml or lastcodeanalysissucceeded files) from the ...\PcapDotNet\bin\\&lt;Architecture>\Release\ folder to the previously created PcapDotNet.Binaries.&lt;Version>.&lt;Architecture> folder.
     * Note: only the Core files should be different between the two architectures.
 * Download the source code and put its contents in the previously created PcapDotNet.Source.&lt;Version> folder.
 * Create documentation and copy it to the previously created PcapDotNet.Documentation.&lt;Version> folder.
