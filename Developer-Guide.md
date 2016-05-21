@@ -43,7 +43,7 @@ The following items are needed before you can develop Pcap.Net:
   * CA2151 (Security): Fields with critical types should be security critical.
 
 ## Policies
-* Every check-in **must** be commented.
+* Every commit **must** be commented.
 * Solution **must** compile without errors or warnings.
 * All unit tests **must** pass.
 * Code coverage should be high (90%+).
@@ -55,7 +55,7 @@ The following items are needed before you can develop Pcap.Net:
 * Build the entire PcapDotNet solution in release.
 * Download and install Sandcastle Help File Builder 1.9.6.0 using SandcastleInstaller.exe. <http://shfb.codeplex.com>
 * Open Pcap.Net Sandcastle Help File Builder project file located in the doc folder in the source control.
-* Make sure the version is up-to-date. If not, update it (remember to check out the file and submit it afterwards).
+* Make sure the version is up-to-date. Remember to commit it afterwards.
 * Build using Sandcastle Help File Builder.
 
 ## Releasing a new version
@@ -70,7 +70,7 @@ The following items are needed before you can develop Pcap.Net:
   * PcapDotNet - change the version in all the AssemblyInfo.cs files and in the AssemblyInfo.cpp file.
   * PcapDotNet.DevelopersPack - change the version in all the AssemblyInfo.cs files.
   * Documentation - change the version in the PcapDotNet.shfbproj file.
-  * Checkin the 22 files.
+  * Commit the 22 files.
 * Folders:
   * PcapDotNet.Source.&lt;Version>
   * PcapDotNet.Binaries.&lt;Version> containing two folders:
