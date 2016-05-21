@@ -94,7 +94,7 @@ The following items are needed before you can develop Pcap.Net:
   * Copy the files from PcapDotNet.Source.&lt;Version> folder to the Developer's Pack folders (PcapDotNet.DevelopersPack.&lt;Version>.x64, PcapDotNet.DevelopersPack.&lt;Version>.x86).
   * Copy the files from PcapDotNet.Binaries.&lt;Version>.x64 folder to PcapDotNet.DevelopersPack.&lt;Version>.x64\PcapDotNet.DevelopersPack\3rdParty\PcapDotNet folder.
   * Copy the files from PcapDotNet.Binaries.&lt;Version>.x86 folder to PcapDotNet.DevelopersPack.&lt;Version>.x86\PcapDotNet.DevelopersPack\3rdParty\PcapDotNet folder.
-  * Copy the files from PcapDotNet.Documentation.&lt;Version> to both Developer's Pack doc folders (PcapDotNet.DevelopersPack.&lt;Version>.x64\doc, PcapDotNet.DevelopersPack.&lt;Version>.x86\doc).
+  * Copy the file from PcapDotNet.Documentation.&lt;Version> to both Developer's Pack doc folders (PcapDotNet.DevelopersPack.&lt;Version>.x64\doc, PcapDotNet.DevelopersPack.&lt;Version>.x86\doc).
   * Delete all of the .vspscc and .vssscc files in the different folders under PcapDotNet.DevelopersPack.&lt;Version> folder.
 * Copy the license.txt file to PcapDotNet.Documentation.&lt;Version>, PcapDotNet.Binaries.&lt;Version> and PcapDotNet.DevelopersPack.&lt;Version> folders.
 * Zip each folder (PcapDotNet.Source.&lt;Version>, PcapDotNet.Binaries.&lt;Version>, PcapDotNet.Documentation.&lt;Version>, PcapDotNet.DevelopersPack.&lt;Version>) to create 4 matching zip files.
