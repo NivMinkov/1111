@@ -106,8 +106,8 @@ The following items are needed before you can develop Pcap.Net:
 * Update NuGet packages. For each architecture (x64 and x86) do the following:
   * Open Pcap.Net.&lt;Architecture>.nupkg.
   * Edit Metadata: Update Version and Release notes.
-  * Under lib, remove the net40 directory.
-  * Add net40 directory.
+  * Under lib, remove the net45 directory.
+  * Add net45 directory.
   * Add the binaries from the matching PcapDotNet.Binaries.&lt;Version>.&lt;Architecture> directory.
   * Save.
   * Go to https://www.nuget.org.
