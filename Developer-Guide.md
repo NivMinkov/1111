@@ -99,8 +99,8 @@ The following items are needed before you can develop Pcap.Net:
 * Copy the license.txt file to PcapDotNet.Documentation.&lt;Version>, PcapDotNet.Binaries.&lt;Version> and PcapDotNet.DevelopersPack.&lt;Version> folders.
 * Zip each folder (PcapDotNet.Source.&lt;Version>, PcapDotNet.Binaries.&lt;Version>, PcapDotNet.Documentation.&lt;Version>, PcapDotNet.DevelopersPack.&lt;Version>) to create 4 matching zip files.
 * Create a new release:
-  * Named it Pcap.Net &lt;Version> (&lt;Change Set>).
-  * Copy the description from a previous release and change the necessary sections (use the comments on the different Change Sets to describe the changes).
+  * Named it Pcap.Net &lt;Version>.
+  * Copy the description from a previous release and change the necessary sections (use the comments on the different commits to describe the changes).
   * The files should be ordered Developer's Pack, Binaries, Documentation, Source.
   * Developer's Pack is the recommended download.
 * Update NuGet packages. For each architecture (x64 and x86) do the following:
