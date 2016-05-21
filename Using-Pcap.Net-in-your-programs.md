@@ -3,8 +3,9 @@
 ### Creating an application that uses Pcap.Net
 
 To create an application that uses Pcap.Net with Microsoft Visual Studio, follow these steps:
-* Make sure you have .NET Framework 4.0 (or a newer version) installed.
-  * [Download Microsoft .NET Framework 4 (Standalone Installer)](http://www.microsoft.com/en-us/download/details.aspx?id=17718)
+* Make sure you have .NET Framework 4.5 (or a newer version) installed.
+  * [Download Microsoft .NET Framework 4.5 (Standalone Installer)](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+  * If you want to use .NET Framework 4, you can only use Pcap.Net 1.0.3.
   * If you want to use .NET Framework 3.5 SP1, you can only use Pcap.Net 0.6.0.
 * Add a reference to PcapDotNet.Base.dll, PcapDotNet.Packets.dll, PcapDotNet.Core.dll and PcapDotNet.Core.Extensions.dll at every project file that uses Pcap.Net.
   * [How to: Add or Remove References in Visual Studio](https://msdn.microsoft.com/en-us/library/wkze6zky(v=vs.100).aspx)
