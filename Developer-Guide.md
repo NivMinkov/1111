@@ -70,7 +70,7 @@ The following items are needed before you can develop Pcap.Net:
   * PcapDotNet - change the version in all the AssemblyInfo.cs files and in the AssemblyInfo.cpp file.
   * PcapDotNet.DevelopersPack - change the version in all the AssemblyInfo.cs files.
   * Documentation - change the version in the PcapDotNet.shfbproj file.
-  * Checkin the 22 files (note the new Change Set number).
+  * Checkin the 22 files.
 * Folders:
   * PcapDotNet.Source.&lt;Version>.&lt;Change Set>
   * PcapDotNet.Binaries.&lt;Version>.&lt;Change Set> containing two folders:
