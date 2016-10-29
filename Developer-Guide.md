@@ -15,7 +15,7 @@ The following items are needed before you can develop Pcap.Net:
 * Make sure you have the checklist.
 * Download the code (by clicking the "Download ZIP" button or by cloning the repository).
 * Build PcapDotNet.sln by going over the following steps:
-  * Download WinPcap Developer's Pack (of the correct WinPcap version) and put it in the Source Code 3rdParty folder (so you'll have ...\PcapDotNet\3rdParty\WpdPack\... folders).
+  * Download [WinPcap Developer's Pack](http://www.winpcap.org/devel.htm) (of the correct WinPcap version) and put it in the Source Code 3rdParty folder (so you'll have ...\PcapDotNet\3rdParty\WpdPack\... folders).
   * Open the PcapDotNet.sln and build it.
 * Run all the unit tests of PcapDotNet.sln
 * **Problems**:
