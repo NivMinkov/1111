@@ -6,6 +6,7 @@
 
 ## Wireshark Bugs
 * IPv6 RPL Routing Header with length of 8 bytes still reads an address (Reported November 28th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11803>
+* IP "next protocol" value of 80 needs to support encapsulations other than RFC 1070 (Reported November 28th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11802>
 * Wireshark doesn't parse an HTTP packet as chunked (Reported November 28th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11801>
 * IGMP Type appears twice and empty Data is shown (Reported October 10th, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11582>
 * ICMP Redirect takes 4 bytes for IPv4 payload instead of 8 (Reported February 21st, 2015): <https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10992>
