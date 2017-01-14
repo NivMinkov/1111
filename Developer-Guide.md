@@ -3,8 +3,8 @@ If you want to **use** Pcap.Net in your own application, see the [[User Guide]].
 
 ## Checklist
 The following items are needed before you can develop Pcap.Net:
-* Microsoft Visual Studio Ultimate 2013. <https://www.visualstudio.com/>
-* ReSharper 9.0. <http://www.jetbrains.com/resharper>
+* Microsoft Visual Studio Community 2015. <https://www.visualstudio.com/>
+* JetBrains ReSharper Ultimate 2016.3.1. <http://www.jetbrains.com/resharper>
 * WinPcap 4.1.3. <http://www.winpcap.org>
 * Wireshark 1.12.8. <http://www.wireshark.org>
   * [x32 Downloads page](http://www.wireshark.org/download/win32/all-versions/)
